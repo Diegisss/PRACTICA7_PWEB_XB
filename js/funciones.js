@@ -12,3 +12,14 @@ function categoria(num){
 
     agregar.innerHTML=mensaje;
 }
+
+
+function convertidor(km){
+    var millas, agregar;
+
+    agregar = document.querySelector('#p1');
+    millas = km * 0.62;
+
+    agregar.innerHTML = km + " km convertidos a millas son " + millas;
+
+}
