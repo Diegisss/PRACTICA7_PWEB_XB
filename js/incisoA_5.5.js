@@ -22,3 +22,9 @@ var A = 30, B=-15;
 if(B<A){alert("B no es mayor que A");}
 if(A<0 | A!=0){alert("A es negativo o diferente de cero");}
 if(B+15 < A){alert("B+15 no es mayor que A");}
+
+var digitos="", i=0;
+for(i; i<=9;i++){
+    digitos = digitos + i.toString() + " ";
+}
+alert("Los digitos son: " + digitos);
